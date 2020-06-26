@@ -6,10 +6,11 @@ export default function Header() {
         <div className="container">
           <Head>
             <div className={styles.topnav}>
-                <a href="index">Home</a>
+                <a href="index" alt="home" src="../media/images/home.png" width="250" height="50">Home</a>
                 <a href="trends">Trends</a>
-                <a href="search">Search Stocks</a>
                 <a href="about">About</a>
+                <a><input type="text" placeholder="Search Stock"></input></a>
+                <a><input id="button_searchSymbol" type="button" onclick="doSomething()" value="Search"></input></a>
             </div>
           </Head>
         </div>
