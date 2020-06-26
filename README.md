@@ -26,7 +26,7 @@ Symbol needs to have a basic page with a search feature
 
 Once styling is figured out
 
-Finish Abouve / Contact pages (If we choose to keep those)
+Finish About / Contact pages (If we choose to keep those)
 
 Design trend / symbol pages
 
