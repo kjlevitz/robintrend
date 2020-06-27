@@ -1,6 +1,7 @@
 import Header from '../components/Header.js'
 import Footer from '../components/Footer.js'
 import styles from '../components/NavBar.module.css'
+import React from "react";
 
 export default function Trends() {
     return (

@@ -3,6 +3,5 @@ export default Home;
 
 /*
 *  Wrapper for Home page.
-*
-* */
+*/
 
