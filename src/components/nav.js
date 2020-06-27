@@ -22,7 +22,7 @@ const nav = () => {
                 </Nav>
                
                 <Form inline action={"../pages/symbol/[symbol_key].js"}>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                    <FormControl type="text" placeholder="Search" className="mr-sm-2" id="symbol" name ="symbol"/>
                     <Button type="submit" variant="outline-info">Search</Button>
                 </Form>
             
