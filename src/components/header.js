@@ -3,8 +3,6 @@ import styles from '../components/NavBar.module.css'
 import Nav from './nav.js';
 
 export default function Header() {
-    let symbol;
-
 
     return (
         <div className="container">
