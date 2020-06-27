@@ -5,11 +5,11 @@ const nav = () => {
     return(
         <div>
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">HomeImage</Navbar.Brand>
+                <Navbar.Brand href="index">HomeImage</Navbar.Brand>
                 
                 <Nav className="mr-auto">
-                    <Nav.Link href="#features">Trends</Nav.Link>
-                    <Nav.Link href="#pricing">About</Nav.Link>
+                    <Nav.Link href="trends">Trends</Nav.Link>
+                    <Nav.Link href="about">About</Nav.Link>
                 </Nav>
                
                 <Form inline>
