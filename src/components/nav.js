@@ -1,15 +1,18 @@
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+//import Link from 'next/link' <-- use for JSX compatibility
+//<link href="/index" passHref><Nav.Link>text</Nav.Link></Link>
+
 const nav = () => {
     return(
         <div>
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="index">HomeImage</Navbar.Brand>
+                <Navbar.Brand href="/index">HomeImage</Navbar.Brand>
                 
                 <Nav className="mr-auto">
-                    <Nav.Link href="trends">Trends</Nav.Link>
-                    <Nav.Link href="about">About</Nav.Link>
+                    <Nav.Link href="/trends">Trends</Nav.Link>
+                    <Nav.Link href="/about">About</Nav.Link>
                 </Nav>
                
                 <Form inline>
