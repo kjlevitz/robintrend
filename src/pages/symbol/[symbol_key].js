@@ -12,11 +12,11 @@ export default function Symbol_Key(){
     const [chartData, setChartData] = useState({});
     const chart = () =>{
         setChartData({
-            labels: ["$0", "$1", "$2"],
+            labels: ["date1", "date2", "date3"],
             datasets: [
                 {
-                    label: router.query.symbol_key, //Race condition, this is finishing before route is declared
-                    data: [10, 20, 30],
+                    label: router.query.symbol_key, //Race condition, router is not defined before this runs
+                    data: [10, 20, 30, 40, 50],
                     backgroundColor: [ 'rgba(0,0,0,0)' ],
                     borderWidth: 4
                 }
@@ -33,10 +33,10 @@ export default function Symbol_Key(){
         <div className="container">
             <Header />
             <main>
-                <h1>Symbol is {router.query.symbol_key}</h1>
                 <div>
-                    <Line data={chartData}/>
+                    <Line data={chartData} />
                 </div>
+                <p1>Debug Symbol = { router.query.symbol_key }</p1>
             </main>
             
             <Footer />
