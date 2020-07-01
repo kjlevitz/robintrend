@@ -15,6 +15,7 @@ export default function Symbol_Key(){
             labels: ["date1", "date2", "date3"],
             datasets: [
                 {
+
                     label: router.query.symbol_key, //Race condition, router is not defined before this runs
                     data: ["Price1", "Price2", "Price3", "Price4", "Price5"],
                     backgroundColor: [ 'rgba(0,0,0,0)' ],

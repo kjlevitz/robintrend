@@ -21,10 +21,12 @@ const nav = () => {
                     <Nav.Link href="/about">About</Nav.Link>
                 </Nav>
                
-                <Form inline action={"../pages/symbol/[symbol_key].js"}>
+                <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" id="symbol" name ="symbol"/>
                     <Button type="submit" variant="outline-info">Search</Button>
                 </Form>
+
+
             
             </Navbar>
         </div>
