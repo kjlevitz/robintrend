@@ -1,6 +1,5 @@
 import Header from '../components/Header.js'
 import Footer from '../components/Footer.js'
-import styles from '../components/NavBar.module.css'
 
 export default function Home() {
     return (
