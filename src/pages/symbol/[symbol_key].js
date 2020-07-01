@@ -5,10 +5,10 @@ import Footer from '../../components/Footer.js';
 import {Line} from 'react-chartjs-2';
 import {useEffect} from 'react';
 
-///symbol/GOOG
 export default function Symbol_Key(){
     const router = useRouter();
     //console.log(router.query);;
+
     const [chartData, setChartData] = useState({});
     const chart = () =>{
         setChartData({

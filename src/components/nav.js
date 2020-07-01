@@ -1,6 +1,8 @@
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
+import redirectSymbol from "./SearchSymbol";
+
 
 //import Link from 'next/link' <-- use for JSX compatibility
 //<link href="/index" passHref><Nav.Link>text</Nav.Link></Link>
@@ -21,9 +23,10 @@ const nav = () => {
                     <Nav.Link href="/about">About</Nav.Link>
                 </Nav>
                
+
                 <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" id="symbol" name ="symbol"/>
-                    <Button type="submit" variant="outline-info">Search</Button>
+                    <Button type="submit" variant="outline-info" onclick={redirectSymbol()} >Search</Button>
                 </Form>
 
 
